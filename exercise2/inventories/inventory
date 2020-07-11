@@ -1,0 +1,11 @@
+web1 ansible_ssh_host=192.168.5.92 ansible_ssh_user=admin ansible_ssh_pass_admin
+
+[webservers]
+web1
+
+[dservers]
+db1
+
+[datacenter:children]
+webservers
+dbservers

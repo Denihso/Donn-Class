@@ -1,0 +1,4 @@
+web1 ansible_ssh_host=192.168.5.92 ansible_ssh_user=admin ansible_ssh_pass_admin
+db1 ansible_ssh_host=102.168.5.92 ansible_user_user=admin ansible_ssh_pass=admin
+[webservers]
+web1
